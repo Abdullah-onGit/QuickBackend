@@ -1,6 +1,6 @@
 # QuickBackend
 
-It is a cross platform server can be used as mock backend or can be configured as per the user needs.
+It is a cross platform server can be used as mock Rest Api backend or can be configured as per the user needs.
 
 Allowed Http Mothods:-
 * GET
