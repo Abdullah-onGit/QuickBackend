@@ -62,6 +62,7 @@ namespace QuickBackend
                 string str = router.Route(request);
                 // Obtain a response object.
                 HttpListenerResponse response = context.Response;
+                response.AddHeader("Access-Control-Allow-Origin", "*");
                 // Construct a response.
                 string responseString = str;
                 byte[] buffer = System.Text.Encoding.UTF8.GetBytes(responseString);

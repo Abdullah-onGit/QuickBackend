@@ -8,7 +8,7 @@ namespace QuickBackend
     {
 
     }
-    class HttpVerbs
+    public class HttpVerbs
     {
         public const string GET = "GET";
         public const string GET_ID = "GET/ID";
